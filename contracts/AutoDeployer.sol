@@ -3,7 +3,7 @@
 pragma solidity ^0.6.0;
 
 contract AutoDeployer {
-  bytes private constant _initCode = hex'58808033803b80938091923cf3';
+  bytes private constant _initCode = hex'58333b90818180333cf3';
   bytes32 private constant _initCodeHash = keccak256(abi.encodePacked(_initCode));
 
   /**
