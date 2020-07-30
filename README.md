@@ -50,7 +50,7 @@ function calculateDeploymentAddress (uint salt) external view returns (address) 
 }
 ```
 
-Note that the deployment mechanism a clone contract's constructor is not called and variables assignments outside of functions have no effect.
+Note that, due to the deployment mechanism, a clone contract's constructor is not called and variable assignments outside of functions have no effect.
 
 ### Warning
 
