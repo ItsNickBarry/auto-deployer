@@ -1,5 +1,7 @@
 # Solidity AutoDeployer
 
+> This repository is unmaintained; its functionality has been merged into the [SolidState Solidity](https://github.com/solidstate-network/solidstate-solidity) project.
+
 Solidity utility functions which allow a contract to deploy a copy of itself.
 
 Using the `new` keyword for this purpose will result in a compilation error:
